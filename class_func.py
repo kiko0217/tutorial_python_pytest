@@ -13,3 +13,6 @@ class StudentDB:
             if student['name'] == name:
                 return student
     
+    def close(self):
+        pass
+    
